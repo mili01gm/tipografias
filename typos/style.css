@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?urfj9y');
+  src:  url('fonts/icomoon.eot?urfj9y#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?urfj9y') format('truetype'),
+    url('fonts/icomoon.woff?urfj9y') format('woff'),
+    url('fonts/icomoon.svg?urfj9y#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cloud-moon-raindrops:before {
+  content: "\e900";
+  color: #4C4A3C;
+  font-size: 58px;
+}
+
+.icon-cloud-sun-snowflakes:before {
+  content: "\e901";
+  font-size: 58px;
+}
+.icon-cloud-sun-fog:before {
+  content: "\e902";
+  font-size: 58px;
+}
+.icon-cloud-moon-fog:before {
+  content: "\e903";
+  font-size: 58px;
+}
+.icon-sun:before {
+  content: "\e904";
+  font-size: 58px;
+}
